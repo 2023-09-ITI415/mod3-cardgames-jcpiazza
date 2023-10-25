@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{11F21074-7747-CCF8-ED24-EC2B99266C38}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/01-Prospector/Resources/LayoutXML.xml">
+    <Files>
+      <File FileName="Assets/01-Prospector/__Scripts/Card.cs" Line="1" Column="1" />
+      <File FileName="Assets/01-Prospector/__Scripts/Deck.cs" Line="1" Column="1" />
+      <File FileName="Assets/01-Prospector/__Scripts/Prospector.cs" Line="31" Column="9" />
+      <File FileName="Assets/01-Prospector/__Scripts/PT_XMLReader.cs" Line="1" Column="1" />
+      <File FileName="Assets/01-Prospector/__Scripts/Utils.cs" Line="1" Column="1" />
+      <File FileName="Assets/01-Prospector/__Scripts/Layout.cs" Line="89" Column="2" />
+      <File FileName="Assets/01-Prospector/Resources/LayoutXML.xml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="mod3-cardgames-jcpiazza" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="01-Prospector" expanded="True">
+                <Node name="Resources" expanded="True">
+                  <Node name="LayoutXML.xml" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a5297839-e332-4a86-85b7-c6c51cf85a0a" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
