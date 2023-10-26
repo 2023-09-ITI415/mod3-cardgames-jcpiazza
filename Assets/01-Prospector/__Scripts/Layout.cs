@@ -19,11 +19,15 @@ public class SlotDef
 
 public class Layout : MonoBehaviour
 {
-    public PT_XMLReader xmlr; // Just like Deck, this has a PT_XMLReader public PT_XMLHashtable xml; // This variable is for faster xml access public Vector2 multiplier; // The offset of the tableau's center
-                              // SlotDef references
-    public List<SlotDef> slotDefs; // All the SlotDefs for Row0-Row3 public SlotDef drawPile;
+    public PT_XMLReader xmlr; // Just like Deck, this has a PT_XMLReader
+    public PT_XMLHashtable xml; // This variable is for faster xml access public Vector2
+    public Vector2 multiplier; // The offset of the tableau's center
+    // SlotDef references
+    public List<SlotDef> slotDefs; // All the SlotDefs for Row0-Row3
+    public SlotDef drawPile;
     public SlotDef discardPile;
-    // This holds all of the possible names for the layers set by layerID public string[] sortingLayerNames = new string[] { "Row0", "Row1", "Row2", "Row3", "Discard", "Draw" };
+    // This holds all of the possible names for the layers set by layerID
+    public string[] sortingLayerNames = new string[] { "Row0", "Row1", "Row2", "Row3", "Discard", "Draw" };
 
     // This function is called to read in the LayoutXML.xml file
     public void ReadLayout(string xmlText)
@@ -40,7 +44,7 @@ public class Layout : MonoBehaviour
         // Read in the slots
         SlotDef tSD;
         // slotsX is used as a shortcut to all the <slot>s 
-        PT_XMLHashList slotx = xml["slot"];
+        PT_XMLHashList slotsX = xml["slot"];
 
         for (int i = 0; i < slotsX.Count; i++)
         {
@@ -62,8 +66,10 @@ public class Layout : MonoBehaviour
             // This converts the number of the layerID into a text layerName
             tSD.layerName = sortingLayerNames[tSD.layerID]; // a
 
-            switch (tSD.type) {
-            // pull additional attributes based on the type of this <slot> case "slot":
+            switch (tSD.type)
+            {
+            // pull additional attributes based on the type of this <slot>
+            case "slot":
             tSD.faceUp = (slotsX[i].att("faceup") == "1");
             tSD.id = int.Parse(slotsX[i].att("id"));
             if (slotsX[i].HasAtt("hiddenby"))
@@ -73,5 +79,17 @@ public class Layout : MonoBehaviour
                     tSD.hiddenBy.Add(int.Parse(s));
                 }
             }
+
+            slotDefs.Add(tSD);
+            break;
+            case "drawpile":
+            tSD.stagger.x = float.Parse(slotsX[i].att("xstagger"));
+            drawPile = tSD;
+            break;
+            case "discardpile":
+            discardPile = tSD;
+            break;
+            }
         }
-       
+    }
+}
