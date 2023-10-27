@@ -1,14 +1,17 @@
 ﻿<Properties StartupConfiguration="{11F21074-7747-CCF8-ED24-EC2B99266C38}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/01-Prospector/__Scripts/CardProspector.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/01-Prospector/__Scripts/Scoreboard.cs">
     <Files>
-      <File FileName="Assets/01-Prospector/__Scripts/Card.cs" Line="1" Column="1" />
-      <File FileName="Assets/01-Prospector/__Scripts/Deck.cs" Line="1" Column="1" />
-      <File FileName="Assets/01-Prospector/__Scripts/Prospector.cs" Line="31" Column="9" />
+      <File FileName="Assets/01-Prospector/__Scripts/Card.cs" Line="112" Column="3" />
+      <File FileName="Assets/01-Prospector/__Scripts/Deck.cs" Line="78" Column="1" />
+      <File FileName="Assets/01-Prospector/__Scripts/Prospector.cs" Line="71" Column="66" />
       <File FileName="Assets/01-Prospector/__Scripts/PT_XMLReader.cs" Line="1" Column="1" />
       <File FileName="Assets/01-Prospector/__Scripts/Utils.cs" Line="1" Column="1" />
       <File FileName="Assets/01-Prospector/__Scripts/Layout.cs" Line="92" Column="14" />
       <File FileName="Assets/01-Prospector/Resources/LayoutXML.xml" Line="1" Column="1" />
-      <File FileName="Assets/01-Prospector/__Scripts/CardProspector.cs" Line="1" Column="1" />
+      <File FileName="Assets/01-Prospector/__Scripts/CardProspector.cs" Line="33" Column="29" />
+      <File FileName="Assets/01-Prospector/__Scripts/ScoreManager.cs" Line="17" Column="18" />
+      <File FileName="Assets/01-Prospector/__Scripts/FloatingScore.cs" Line="122" Column="13" />
+      <File FileName="Assets/01-Prospector/__Scripts/Scoreboard.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,7 +20,7 @@
             <Node name="Assets" expanded="True">
               <Node name="01-Prospector" expanded="True">
                 <Node name="__Scripts" expanded="True">
-                  <Node name="CardProspector.cs" selected="True" />
+                  <Node name="Scoreboard.cs" selected="True" />
                 </Node>
                 <Node name="Resources" expanded="True" />
               </Node>
