@@ -47,7 +47,8 @@ public class Card : MonoBehaviour
 		// If spriteRenderers is null or empty
 		if (spriteRenderers == null || spriteRenderers.Length == 0)
 		{
-			// Get SpriteRenderer Components of this GameObject and its children spriteRenderers = GetComponentsInChildren<SpriteRenderer>();
+			// Get SpriteRenderer Components of this GameObject and its children
+            spriteRenderers = GetComponentsInChildren<SpriteRenderer>();
 		}
 	}
 	// Sets the sortingLayerName on all SpriteRenderer Components
@@ -64,6 +65,7 @@ public class Card : MonoBehaviour
 	{
 		print(name); // When clicked, this outputs the card name
 	}
+
 	public void SetSortOrder(int sOrd)
 	{
 		PopulateSpriteRenderers();

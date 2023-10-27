@@ -47,6 +47,7 @@ public class Prospector : MonoBehaviour
 		layout = GetComponent<Layout>(); // Get the Layout component
 		layout.ReadLayout(layoutXML.text); // Pass LayoutXML to it
 		drawPile = ConvertListCardsToListCardProspectors(deck.cards);
+		LayoutGame();
 
 		Card c;
 		for (int cNum = 0; cNum < deck.cards.Count; cNum++)
@@ -59,14 +60,14 @@ public class Prospector : MonoBehaviour
 		LayoutGame();
 	}
 
-	List<CardProspector> ConvertListCardsToListCardProspectors(List<Card>
-lCD)
+	List<CardProspector> ConvertListCardsToListCardProspectors(List<Card>lCD)
 	{
 		List<CardProspector> lCP = new List<CardProspector>();
 		CardProspector tCP;
 		foreach (Card tCD in lCD)
 		{
-			tCP = tCD as CardProspector; // a lCP.Add( tCP );
+			tCP = tCD as CardProspector; // a
+            lCP.Add( tCP );
 		}
 		return (lCP);
 	}
@@ -160,7 +161,8 @@ lCD)
 		layout.multiplier.x * layout.discardPile.x, layout.multiplier.y * layout.discardPile.y, -layout.discardPile.layerID);
 		cd.faceUp = true; // Make it face-up
 						  // Set the depth sorting
-		cd.SetSortingLayerName(layout.discardPile.layerName); cd.SetSortOrder(0);
+		cd.SetSortingLayerName(layout.discardPile.layerName);
+		cd.SetSortOrder(0);
 	}
 
 	// Arranges all the cards of the drawPile to show how many are left
@@ -178,9 +180,11 @@ lCD)
 			layout.multiplier.x * (layout.drawPile.x + i * dpStagger.x),
 			layout.multiplier.y * (layout.drawPile.y + i * dpStagger.y),
 			-layout.drawPile.layerID + 0.1f * i);
-			cd.faceUp = false; // Make them all face-down cd.state = eCardState.drawpile;
+			cd.faceUp = false; // Make them all face-down
+            cd.state = eCardState.drawpile;
 							   // Set depth sorting
-			cd.SetSortingLayerName(layout.drawPile.layerName); cd.SetSortOrder(-10 * i);
+			cd.SetSortingLayerName(layout.drawPile.layerName);
+			cd.SetSortOrder(-10 * i);
 		}
 
 
@@ -218,7 +222,7 @@ lCD)
 					validMatch = false;
 				}
 				if (!validMatch) return; // return if not valid
-										 // If we got here, then: Yay! It's a valid card.
+				// If we got here, then: Yay! It's a valid card.
 				tableau.Remove(cd); // Remove it from the tableau List
 				MoveToTarget(cd); // Make it the target card
 				SetTableauFaces(); // Update tableau card face-ups
@@ -321,7 +325,8 @@ lCD)
 					fsRun.reportFinishTo = Scoreboard.S.gameObject;
 					fsRun.Init(fsPts, 0, 1);
 					// Also adjust the fontSize
-					fsRun.fontSizes = new List<float>(new float[] { 28, 36, 4 }); fsRun = null; // Clear fsRun so it's created again
+					fsRun.fontSizes = new List<float>(new float[] { 28, 36, 4 });
+					fsRun = null; // Clear fsRun so it's created again
 				}
 				break;
 			case eScoreEvent.mine: // Remove a mine card
@@ -389,4 +394,5 @@ lCD)
 
 
 		}
+
 }
