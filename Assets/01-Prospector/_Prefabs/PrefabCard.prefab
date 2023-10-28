@@ -131,7 +131,7 @@ MonoBehaviour:
     rank: 0
     pips: []
   spriteRenderers: []
-  state: 0
+  state: 1
   hiddenBy: []
   layoutID: 0
   slotDef:
