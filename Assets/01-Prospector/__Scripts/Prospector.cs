@@ -51,8 +51,7 @@ public class Prospector : MonoBehaviour
 
 		layout = GetComponent<Layout>(); // Get the Layout component
 		layout.ReadLayout(layoutXML.text); // Pass LayoutXML to it
-		drawPile = ConvertListCardsToListCardProspectors(deck.cards);
-		LayoutGame();
+		
 
 		Card c;
 		for (int cNum = 0; cNum < deck.cards.Count; cNum++)
@@ -60,7 +59,6 @@ public class Prospector : MonoBehaviour
 			c = deck.cards[cNum];
 			c.transform.localPosition = new Vector3((cNum % 13) * 3, cNum / 13 * 4, 0);
 		}
-
 		drawPile = ConvertListCardsToListCardProspectors(deck.cards);
 		LayoutGame();
 	}

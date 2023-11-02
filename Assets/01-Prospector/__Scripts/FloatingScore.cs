@@ -20,7 +20,8 @@ public class FloatingScore : MonoBehaviour
     [Header("Set Dynamically")]
     public eFSState state = eFSState.idle;
     [SerializeField]
-    protected int _score = 0; public string scoreString;
+    protected int _score = 0;
+    public string scoreString;
     // The score property sets both _score and scoreString
     public int score
     {
@@ -82,7 +83,8 @@ public class FloatingScore : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // If this is not moving, just return if (state == eFSState.idle) return;
+        // If this is not moving, just return
+        if (state == eFSState.idle) return;
         // Get u from the current time and duration
         // u ranges from 0 to 1 (usually)
         float u = (Time.time - timeStart) / timeDuration;
@@ -126,7 +128,8 @@ public class FloatingScore : MonoBehaviour
             {
                 // If fontSizes has values in it
                 // ...then adjust the fontSize of this GUIText
-                int size = Mathf.RoundToInt(Utils.Bezier(uC, fontSizes)); GetComponent<Text>().fontSize = size;
+                int size = Mathf.RoundToInt(Utils.Bezier(uC, fontSizes));
+                GetComponent<Text>().fontSize = size;
             }
         }
     }

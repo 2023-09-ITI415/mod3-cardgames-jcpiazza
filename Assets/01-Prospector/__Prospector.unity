@@ -680,9 +680,9 @@ MonoBehaviour:
   layoutXML: {fileID: 4900000, guid: 61f3f05951a2f4d98b35bddbc7549908, type: 3}
   xOffset: 3
   yOffset: -2.5
-  gameOverText: {fileID: 0}
-  roundResultText: {fileID: 0}
-  highScoreText: {fileID: 0}
+  gameOverText: {fileID: 1242933933}
+  roundResultText: {fileID: 951041933}
+  highScoreText: {fileID: 1860032827}
   layoutCenter: {x: 0, y: 0, z: 0}
   fsPosMid: {x: 0.5, y: 0.9}
   fsPosRun: {x: 0.5, y: 0.75}
@@ -789,7 +789,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.825}
   m_AnchorMax: {x: 0.5, y: 0.825}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -100}
   m_SizeDelta: {x: 600, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &951041933
