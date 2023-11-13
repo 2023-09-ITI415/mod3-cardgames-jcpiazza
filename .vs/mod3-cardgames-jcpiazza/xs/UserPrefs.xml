@@ -1,17 +1,16 @@
 ﻿<Properties StartupConfiguration="{11F21074-7747-CCF8-ED24-EC2B99266C38}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/01-Prospector/__Scripts/Prospector.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/01-Prospector 1/__Scripts/Card.cs">
     <Files>
-      <File FileName="Assets/01-Prospector/__Scripts/Card.cs" Line="51" Column="13" />
-      <File FileName="Assets/01-Prospector/__Scripts/Deck.cs" />
-      <File FileName="Assets/01-Prospector/__Scripts/Prospector.cs" Line="346" Column="45" />
-      <File FileName="Assets/01-Prospector/__Scripts/PT_XMLReader.cs" />
-      <File FileName="Assets/01-Prospector/__Scripts/Utils.cs" />
-      <File FileName="Assets/01-Prospector/__Scripts/Layout.cs" />
-      <File FileName="Assets/01-Prospector/Resources/LayoutXML.xml" />
-      <File FileName="Assets/01-Prospector/__Scripts/CardProspector.cs" />
-      <File FileName="Assets/01-Prospector/__Scripts/ScoreManager.cs" />
-      <File FileName="Assets/01-Prospector/__Scripts/FloatingScore.cs" />
-      <File FileName="Assets/01-Prospector/__Scripts/Scoreboard.cs" />
+      <File FileName="Assets/01-Prospector 1/__Scripts/Card.cs" Line="119" Column="2" />
+      <File FileName="Assets/01-Prospector 1/__Scripts/CardProspector.cs" Line="38" Column="2" />
+      <File FileName="Assets/01-Prospector 1/__Scripts/Deck.cs" Line="351" Column="2" />
+      <File FileName="Assets/01-Prospector 1/__Scripts/FloatingScore.cs" Line="139" Column="2" />
+      <File FileName="Assets/01-Prospector 1/__Scripts/Layout.cs" Line="98" Column="2" />
+      <File FileName="Assets/01-Prospector 1/__Scripts/Prospector.cs" Line="459" Column="2" />
+      <File FileName="Assets/01-Prospector 1/__Scripts/PT_XMLReader.cs" Line="422" Column="2" />
+      <File FileName="Assets/01-Prospector 1/__Scripts/Scoreboard.cs" Line="78" Column="2" />
+      <File FileName="Assets/01-Prospector 1/__Scripts/ScoreManager.cs" Line="116" Column="2" />
+      <File FileName="Assets/01-Prospector 1/__Scripts/Utils.cs" Line="644" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -19,10 +18,13 @@
           <Node name="mod3-cardgames-jcpiazza" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="01-Prospector" expanded="True">
+                <Node name="__Scripts" expanded="True" />
+                <Node name="Resources" expanded="True" />
+              </Node>
+              <Node name="01-Prospector 1" expanded="True">
                 <Node name="__Scripts" expanded="True">
                   <Node name="Card.cs" selected="True" />
                 </Node>
-                <Node name="Resources" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -34,7 +36,10 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a5297839-e332-4a86-85b7-c6c51cf85a0a" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/jayceepiazza/Documents/GitHub/mod3-cardgames-jcpiazza/Assets/01-Prospector/__Scripts/Prospector.cs" relfile="Assets/01-Prospector/__Scripts/Prospector.cs" line="306" column="1" />
+      <Breakpoint file="/Users/jayceepiazza/Documents/GitHub/mod3-cardgames-jcpiazza/Assets/01-Prospector/__Scripts/Prospector.cs" relfile="Assets/01-Prospector/__Scripts/Prospector.cs" line="290" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
