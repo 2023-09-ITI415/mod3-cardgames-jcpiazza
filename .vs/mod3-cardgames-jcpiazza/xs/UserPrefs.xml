@@ -1,7 +1,9 @@
 ﻿<Properties StartupConfiguration="{11F21074-7747-CCF8-ED24-EC2B99266C38}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/01-Prospector Clock/__Scripts/CardClock.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/01-Prospector Clock/Resources/DeckXML 2.xml">
     <Files>
-      <File FileName="Assets/01-Prospector Clock/__Scripts/CardClock.cs" />
+      <File FileName="Assets/01-Prospector Clock/__Scripts/CardClock.cs" Line="11" Column="31" />
+      <File FileName="Assets/01-Prospector Clock/__Scripts/ProspectorClock.cs" Line="31" Column="39" />
+      <File FileName="Assets/01-Prospector Clock/Resources/DeckXML 2.xml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,8 +15,9 @@
                 <Node name="Resources" expanded="True" />
               </Node>
               <Node name="01-Prospector Clock" expanded="True">
-                <Node name="__Scripts" expanded="True">
-                  <Node name="CardClock.cs" selected="True" />
+                <Node name="__Scripts" expanded="True" />
+                <Node name="Resources" expanded="True">
+                  <Node name="DeckXML 2.xml" selected="True" />
                 </Node>
               </Node>
             </Node>
