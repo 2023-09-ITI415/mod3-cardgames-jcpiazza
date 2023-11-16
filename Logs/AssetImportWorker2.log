@@ -1,0 +1,638 @@
+Unity Editor version:    2022.3.7f1 (b16b3b16c7a0)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.4 (Build 21F79)
+Darwin version:          21.5.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+/Users/jayceepiazza/Documents/GitHub/mod3-cardgames-jcpiazza
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+53067
+Successfully changed project path to: /Users/jayceepiazza/Documents/GitHub/mod3-cardgames-jcpiazza
+/Users/jayceepiazza/Documents/GitHub/mod3-cardgames-jcpiazza
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [4604777984] Host "[IP] 192.168.86.33 [Port] 0 [Flags] 2 [Guid] 3353632251 [EditorId] 3353632251 [Version] 1048832 [Id] OSXEditor(0,jaycees-mbp.lan) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [4604777984] Host "[IP] 192.168.86.33 [Port] 0 [Flags] 2 [Guid] 3353632251 [EditorId] 3353632251 [Version] 1048832 [Id] OSXEditor(0,jaycees-mbp.lan) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 16.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/jayceepiazza/Documents/GitHub/mod3-cardgames-jcpiazza/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 650 (low power)
+Metal devices available: 1
+0: Intel(R) Iris(TM) Plus Graphics 650 (low power)
+Using device Intel(R) Iris(TM) Plus Graphics 650 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 650
+Initialize mono
+Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56507
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.009302 seconds.
+- Loaded All Assemblies, in  1.176 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.409 seconds
+Domain Reload Profiling: 1588ms
+	BeginReloadAssembly (574ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (4ms)
+	RebuildCommonClasses (102ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (121ms)
+	LoadAllAssembliesAndSetupDomain (366ms)
+		LoadAssemblies (585ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (332ms)
+			TypeCache.Refresh (329ms)
+				TypeCache.ScanAssembly (307ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (409ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (316ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (11ms)
+			ProcessInitializeOnLoadAttributes (214ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.126 seconds
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.731 seconds
+Domain Reload Profiling: 1855ms
+	BeginReloadAssembly (197ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (802ms)
+		LoadAssemblies (738ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (150ms)
+			TypeCache.Refresh (132ms)
+				TypeCache.ScanAssembly (113ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (731ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (512ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (412ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.53 seconds
+Refreshing native plugins compatible for Editor in 1.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1400 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (50.8 KB). Loaded Objects now: 1870.
+Memory consumption went from 158.1 MB to 158.1 MB.
+Total: 3.453707 ms (FindLiveObjects: 0.156726 ms CreateObjectMapping: 0.083037 ms MarkObjects: 3.101917 ms  DeleteObjects: 0.110975 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 311670.621581 seconds.
+  path: Assets/01-Prospector Clock/_Sprites/Card_Back.png
+  artifactKey: Guid(edf07c3aefd3947c9a23fa02c2f7e69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01-Prospector Clock/_Sprites/Card_Back.png using Guid(edf07c3aefd3947c9a23fa02c2f7e69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28553441685945f5a7b1d642b0b86021') in 0.259823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/01-Prospector Clock/_Sprites/FaceCard_12H 2.png
+  artifactKey: Guid(a9ec2af5bdb3d47e7801ac67beca57f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01-Prospector Clock/_Sprites/FaceCard_12H 2.png using Guid(a9ec2af5bdb3d47e7801ac67beca57f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b58054b3067d78638934913ac1818b95') in 0.008265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000602 seconds.
+  path: Assets/01-Prospector Clock/_Sprites/FaceCard_13H.png
+  artifactKey: Guid(73759f5557c5f45b089c9795067add57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01-Prospector Clock/_Sprites/FaceCard_13H.png using Guid(73759f5557c5f45b089c9795067add57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5b4683fbcd65cc0cc71df5e805c2abd') in 0.016458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/01-Prospector Clock/_Sprites/ProspectorBackground Mat 2.mat
+  artifactKey: Guid(640160e32554e41f28ca465e4e8bf65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01-Prospector Clock/_Sprites/ProspectorBackground Mat 2.mat using Guid(640160e32554e41f28ca465e4e8bf65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be91f1b6c1364fcba7cb327130fa1c10') in 0.126269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/01-Prospector Clock/_Sprites/FaceCard_11C 2.png
+  artifactKey: Guid(4096adf07956c4a8387e4c717cd8a925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01-Prospector Clock/_Sprites/FaceCard_11C 2.png using Guid(4096adf07956c4a8387e4c717cd8a925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aba2d35556bf55343984e0e91037db9e') in 0.008422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001098 seconds.
+  path: Assets/01-Prospector Clock/_Sprites/FaceCard_11D 2.png
+  artifactKey: Guid(73a83a8a29ed6438687f9ee5b44588a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01-Prospector Clock/_Sprites/FaceCard_11D 2.png using Guid(73a83a8a29ed6438687f9ee5b44588a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eca375bdb12fb442b8aec4775a66776') in 0.014358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/01-Prospector Clock/_Sprites/Card_Front_Gold 2.png
+  artifactKey: Guid(4ec07af35f0aa4a1692d07a175eda952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01-Prospector Clock/_Sprites/Card_Front_Gold 2.png using Guid(4ec07af35f0aa4a1692d07a175eda952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d041b94ad7101ee161c28f5b1ba77e') in 0.010922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/01-Prospector Clock/_Sprites/Heart 2.png
+  artifactKey: Guid(fe45712fc9326423286f0d6dc5ba8db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01-Prospector Clock/_Sprites/Heart 2.png using Guid(fe45712fc9326423286f0d6dc5ba8db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4167c0709291cfbf83bd2473a5adba57') in 0.015203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/01-Prospector Clock/_Sprites/Card_Front_Gold.png
+  artifactKey: Guid(0bcc8f14d921b48a0a84054b9b36d4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01-Prospector Clock/_Sprites/Card_Front_Gold.png using Guid(0bcc8f14d921b48a0a84054b9b36d4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b90137c1d7f58f5efe8612bfa629323b') in 0.028837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000694 seconds.
+  path: Assets/01-Prospector Clock/_Sprites/FaceCard_13D.png
+  artifactKey: Guid(b864e1dc3617f420db475a62c272eefe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01-Prospector Clock/_Sprites/FaceCard_13D.png using Guid(b864e1dc3617f420db475a62c272eefe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8d7f58859c4c7e67f1025ae764a3634') in 0.028714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/01-Prospector Clock/_Sprites/FaceCard_12D.png
+  artifactKey: Guid(cf7f286431ab1402983de338e403593b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01-Prospector Clock/_Sprites/FaceCard_12D.png using Guid(cf7f286431ab1402983de338e403593b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a733d5a80503c018c9352f1409fdb24c') in 0.056850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.206214 seconds.
+  path: Assets/01-Prospector Clock/_Sprites/Spade 2.png
+  artifactKey: Guid(c46776cee1c064cc6813cfa9574ad328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01-Prospector Clock/_Sprites/Spade 2.png using Guid(c46776cee1c064cc6813cfa9574ad328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d7bd187564b5b235cd1682f4c8b9608') in 0.010659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 24.716321 seconds.
+  path: Assets/01-Prospector Clock/Resources/DeckXML 2.xml
+  artifactKey: Guid(77bbc1e1054854fbebdd13d22a3a84b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01-Prospector Clock/Resources/DeckXML 2.xml using Guid(77bbc1e1054854fbebdd13d22a3a84b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e819376dabc02ab13636a3b1c7ab09f') in 0.000980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.062279 seconds.
+  path: Assets/01-Prospector Clock/Resources/LayoutXML 2.xml
+  artifactKey: Guid(a15282113880544c8a1a12e700b94831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01-Prospector Clock/Resources/LayoutXML 2.xml using Guid(a15282113880544c8a1a12e700b94831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0631f0366f515706b3ef9da0d6d2e881') in 0.000809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 24.716688 seconds.
+  path: Assets/01-Prospector/_Sprites 1/Card_Back.png
+  artifactKey: Guid(5ea4f65ea4cbe49a89c96b82da040d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01-Prospector/_Sprites 1/Card_Back.png using Guid(5ea4f65ea4cbe49a89c96b82da040d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f30aa4327a235f47cbf80f0363e47c3') in 0.041984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/01-Prospector/_Sprites 1/FaceCard_13C.png
+  artifactKey: Guid(d6710662bde83447bb0029e798c48d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01-Prospector/_Sprites 1/FaceCard_13C.png using Guid(d6710662bde83447bb0029e798c48d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93504c301ab602f50b044948a9ee1225') in 0.020513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.005577 seconds.
+  path: Assets/01-Prospector/_Sprites 1/FaceCard_12C.png
+  artifactKey: Guid(f0af93d6f567342ada031ce087d17291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01-Prospector/_Sprites 1/FaceCard_12C.png using Guid(f0af93d6f567342ada031ce087d17291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '160e2eb687c7ba075b7cab2f82ce8c17') in 0.027031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.008509 seconds.
+  path: Assets/01-Prospector/_Sprites 1/FaceCard_13H.png
+  artifactKey: Guid(c8d902c9fa7974c918291bb495038521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01-Prospector/_Sprites 1/FaceCard_13H.png using Guid(c8d902c9fa7974c918291bb495038521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be2a1d8c9c752d010be05eee6f0588f8') in 0.018377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000548 seconds.
+  path: Assets/01-Prospector/_Sprites 1/FaceCard_12D.png
+  artifactKey: Guid(64c63b972eb0546c4b8a32a2052d356c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01-Prospector/_Sprites 1/FaceCard_12D.png using Guid(64c63b972eb0546c4b8a32a2052d356c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '816a229c4c92ccdf4917b15562f31d30') in 0.019637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/01-Prospector/_Sprites 1/Card_Front_Gold.png
+  artifactKey: Guid(661d9d38d4e9b49e7a6bdfb87f2421ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01-Prospector/_Sprites 1/Card_Front_Gold.png using Guid(661d9d38d4e9b49e7a6bdfb87f2421ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa01b549cc9ac24728e94d19841fba10') in 0.014433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000500 seconds.
+  path: Assets/01-Prospector/_Sprites 1/FaceCard_11C.png
+  artifactKey: Guid(c71c0eae84457478e838b04140a50934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01-Prospector/_Sprites 1/FaceCard_11C.png using Guid(c71c0eae84457478e838b04140a50934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e21209a45bf9ee47f3746a93372f3d8') in 0.016954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/01-Prospector/_Sprites 1/FaceCard_13S.png
+  artifactKey: Guid(ed6bb4294d62842368d48c91d5cae1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01-Prospector/_Sprites 1/FaceCard_13S.png using Guid(ed6bb4294d62842368d48c91d5cae1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '729ff60ac5dfeadfd0fdd4e3b6a405d6') in 0.013305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/01-Prospector/_Sprites 1/FaceCard_11S.png
+  artifactKey: Guid(f0139b2a3bf994593861dbbb525ba357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01-Prospector/_Sprites 1/FaceCard_11S.png using Guid(f0139b2a3bf994593861dbbb525ba357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da8097ac0d38e2cd1bd5d7aa986e7183') in 0.021439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 233.251096 seconds.
+  path: Assets/01-Prospector Clock/__Scripts
+  artifactKey: Guid(bf74d8751a27549e595f7bbe25debe57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01-Prospector Clock/__Scripts using Guid(bf74d8751a27549e595f7bbe25debe57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8c7d9bd22b19a8362188c1055db73d6') in 0.004056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.052 seconds
+Refreshing native plugins compatible for Editor in 1.37 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.490 seconds
+Domain Reload Profiling: 2543ms
+	BeginReloadAssembly (477ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (144ms)
+	RebuildCommonClasses (103ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (402ms)
+		LoadAssemblies (602ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (30ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1490ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (553ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (104ms)
+			ProcessInitializeOnLoadAttributes (400ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1391 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (28.4 KB). Loaded Objects now: 1920.
+Memory consumption went from 162.8 MB to 162.8 MB.
+Total: 43.771607 ms (FindLiveObjects: 0.174732 ms CreateObjectMapping: 0.143509 ms MarkObjects: 43.369320 ms  DeleteObjects: 0.082487 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 495.409443 seconds.
+  path: Assets/01-Prospector/__Scripts/Card.cs
+  artifactKey: Guid(100a12af089e19845beeba3dc7d93c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01-Prospector/__Scripts/Card.cs using Guid(100a12af089e19845beeba3dc7d93c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e67a90404619e7c6c2f770bd7765d30e') in 0.002122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.078372 seconds.
+  path: Assets/01-Prospector/__Scripts/Card1.cs
+  artifactKey: Guid(29327f2c39c62485c802d466c081d1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01-Prospector/__Scripts/Card1.cs using Guid(29327f2c39c62485c802d466c081d1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23019351636f4d26ccc57af9be338cb8') in 0.000943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.727510 seconds.
+  path: Assets/01-Prospector/__Scripts/CardProspector.cs
+  artifactKey: Guid(cb145181db7c34d40a9ba1d57536f2ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01-Prospector/__Scripts/CardProspector.cs using Guid(cb145181db7c34d40a9ba1d57536f2ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50fb65309021c4dfdf4f28b4fa0ccc22') in 0.000500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.515197 seconds.
+  path: Assets/01-Prospector/__Scripts/CardProspector1.cs
+  artifactKey: Guid(2d255bb39c375416dae8f94a60914028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01-Prospector/__Scripts/CardProspector1.cs using Guid(2d255bb39c375416dae8f94a60914028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d8ab3179866f695fc1d849ba58dc34a') in 0.000974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 23.892866 seconds.
+  path: Assets/01-Prospector Clock/__Scripts/CardClock.cs
+  artifactKey: Guid(29327f2c39c62485c802d466c081d1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01-Prospector Clock/__Scripts/CardClock.cs using Guid(29327f2c39c62485c802d466c081d1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1baaef7ef90485db146bbdbb3ffc793') in 0.000720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 15.973801 seconds.
+  path: Assets/01-Prospector Clock/__Scripts/ProspectorClock.cs
+  artifactKey: Guid(2d255bb39c375416dae8f94a60914028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01-Prospector Clock/__Scripts/ProspectorClock.cs using Guid(2d255bb39c375416dae8f94a60914028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c6c84d902e243fd0614a217feec9e40') in 0.000605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 145.255636 seconds.
+  path: Assets/01-Prospector Clock/__Scripts/CardClock.cs
+  artifactKey: Guid(29327f2c39c62485c802d466c081d1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01-Prospector Clock/__Scripts/CardClock.cs using Guid(29327f2c39c62485c802d466c081d1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af383323be6431f03a10e5441792b85a') in 0.004035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.868 seconds
+Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.711 seconds
+Domain Reload Profiling: 2580ms
+	BeginReloadAssembly (368ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (116ms)
+	RebuildCommonClasses (71ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (354ms)
+		LoadAssemblies (514ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (21ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1712ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (846ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (119ms)
+			ProcessInitializeOnLoadAttributes (662ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1391 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (27.4 KB). Loaded Objects now: 1923.
+Memory consumption went from 163.0 MB to 163.0 MB.
+Total: 7.107612 ms (FindLiveObjects: 0.240339 ms CreateObjectMapping: 0.114369 ms MarkObjects: 6.674056 ms  DeleteObjects: 0.076551 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 41.969717 seconds.
+  path: Assets/01-Prospector Clock/__Scripts/CardClock.cs
+  artifactKey: Guid(29327f2c39c62485c802d466c081d1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01-Prospector Clock/__Scripts/CardClock.cs using Guid(29327f2c39c62485c802d466c081d1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad5f08b3a06f0b885f83e6f673e0abfb') in 0.003748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.950 seconds
+Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.575 seconds
+Domain Reload Profiling: 2526ms
+	BeginReloadAssembly (350ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (85ms)
+	RebuildCommonClasses (201ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (324ms)
+		LoadAssemblies (474ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (46ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1576ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (826ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (667ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 1.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1392 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (27.5 KB). Loaded Objects now: 1927.
+Memory consumption went from 162.9 MB to 162.9 MB.
+Total: 5.014122 ms (FindLiveObjects: 0.305062 ms CreateObjectMapping: 0.111981 ms MarkObjects: 4.540665 ms  DeleteObjects: 0.054523 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7.148632 seconds.
+  path: Assets/01-Prospector Clock/__Scripts/CardClock.cs
+  artifactKey: Guid(29327f2c39c62485c802d466c081d1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01-Prospector Clock/__Scripts/CardClock.cs using Guid(29327f2c39c62485c802d466c081d1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f99bf80937579c2531f3b813e5042e') in 0.002458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
