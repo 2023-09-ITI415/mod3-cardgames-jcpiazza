@@ -357,7 +357,7 @@ public class CardClock : MonoBehaviour
     void ReloadLevel()
     {
         // Reload the scene, resetting the game
-        SceneManager.LoadScene("Prospector Clock");
+        SceneManager.LoadScene("__Prospector1");
     }
     // Return true if the two cards are adjacent in rank (A & K wrap around)
     public bool AdjacentRank(ProspectorClock c0, ProspectorClock c1)

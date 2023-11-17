@@ -1,9 +1,10 @@
 ﻿<Properties StartupConfiguration="{11F21074-7747-CCF8-ED24-EC2B99266C38}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/01-Prospector Clock/Resources/DeckXML 2.xml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/01-Prospector Clock/__Scripts/ProspectorClock.cs">
     <Files>
-      <File FileName="Assets/01-Prospector Clock/__Scripts/CardClock.cs" Line="11" Column="31" />
+      <File FileName="Assets/01-Prospector Clock/__Scripts/CardClock.cs" Line="132" Column="1" />
       <File FileName="Assets/01-Prospector Clock/__Scripts/ProspectorClock.cs" Line="31" Column="39" />
-      <File FileName="Assets/01-Prospector Clock/Resources/DeckXML 2.xml" Line="1" Column="1" />
+      <File FileName="Assets/01-Prospector Clock/Resources/DeckXML 1.xml" Line="46" Column="7" />
+      <File FileName="Assets/01-Prospector Clock/Resources/LayoutXML 1.xml" Line="24" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,10 +16,10 @@
                 <Node name="Resources" expanded="True" />
               </Node>
               <Node name="01-Prospector Clock" expanded="True">
-                <Node name="__Scripts" expanded="True" />
-                <Node name="Resources" expanded="True">
-                  <Node name="DeckXML 2.xml" selected="True" />
+                <Node name="__Scripts" expanded="True">
+                  <Node name="ProspectorClock.cs" selected="True" />
                 </Node>
+                <Node name="Resources" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -33,6 +34,7 @@
     <BreakpointStore>
       <Breakpoint file="/Users/jayceepiazza/Documents/GitHub/mod3-cardgames-jcpiazza/Assets/01-Prospector/__Scripts/Prospector.cs" relfile="Assets/01-Prospector/__Scripts/Prospector.cs" line="306" column="1" />
       <Breakpoint file="/Users/jayceepiazza/Documents/GitHub/mod3-cardgames-jcpiazza/Assets/01-Prospector/__Scripts/Prospector.cs" relfile="Assets/01-Prospector/__Scripts/Prospector.cs" line="290" column="1" />
+      <RunToCursorBreakpoint file="/Users/jayceepiazza/Documents/GitHub/mod3-cardgames-jcpiazza/Assets/01-Prospector Clock/__Scripts/CardClock.cs" relfile="Assets/01-Prospector Clock/__Scripts/CardClock.cs" line="139" column="11" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
